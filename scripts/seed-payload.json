@@ -1,0 +1,152 @@
+{
+  "site": {
+    "name": "Muhammad Umer Mujtaba",
+    "role": "Software Engineer — Mobile & Cross-Platform",
+    "shortRole": "Cross-platform mobile engineer",
+    "url": "https://umermujtaba.dev",
+    "description": "Portfolio of Muhammad Umer Mujtaba, a software engineer specializing in React Native, Flutter, and Next.js. Builder of cross-platform apps with real-time integrations, shipped on the Play Store.",
+    "email": "umermujtaba2@gmail.com",
+    "phone": "+92 305 4034026",
+    "location": "Lahore, Pakistan",
+    "social": {
+      "github": "https://github.com/UmerMujtaba",
+      "linkedin": "https://linkedin.com/in/umermujtaba9"
+    },
+    "keywords": [
+      "Muhammad Umer Mujtaba",
+      "React Native Developer",
+      "Flutter Developer",
+      "Next.js Developer",
+      "Cross-platform Mobile Engineer",
+      "Software Engineer Lahore Pakistan",
+      "Firebase Developer",
+      "Mobile App Developer Portfolio"
+    ],
+    "ogImage": "/og-image.png"
+  },
+  "hero": {
+    "headline": "One codebase, shipped to iOS, Android, and the web.",
+    "supporting": "I'm Muhammad Umer Mujtaba, a software engineer who builds cross-platform products end to end — architecture, state management, and the real-time integrations that hold them together.",
+    "stats": [
+      { "value": "2+", "label": "Years shipping" },
+      { "value": "3", "label": "Platforms per codebase" },
+      { "value": "~40%", "label": "Less duplicated code" }
+    ]
+  },
+  "about": {
+    "paragraphs": [
+      "I work at the intersection of mobile and web, building products in React Native, Flutter, and Next.js that need to feel native on every platform they touch. Most of my time goes into the parts users never see directly: state architecture, monorepo structure, and the real-time plumbing — Firebase, Agora, HealthKit — that makes an app feel alive.",
+      "At Nextek Solutions, I've owned full feature lifecycles across three shipping products: a fitness and community platform synced across iOS, Android, and web from a single codebase; an audio-storytelling app live on the Play Store; and a media discovery app built around large, fast-scrolling catalogs.",
+      "I care most about the handoff points — where a phone talks to a wearable, a client talks to Firestore, or a mobile app shares logic with its web counterpart — because that's where products either feel seamless or fall apart."
+    ]
+  },
+  "skillGroups": [
+    { "label": "Languages", "items": ["JavaScript (ES6+)", "TypeScript", "Dart", "Java", "C/C++", "SQL"] },
+    { "label": "Mobile", "items": ["React Native", "Flutter", "Android Studio"] },
+    { "label": "Frontend / Web", "items": ["Next.js", "React.js", "HTML", "CSS", "Bootstrap"] },
+    { "label": "State Management", "items": ["Redux", "Riverpod", "Zustand", "Context API"] },
+    { "label": "Backend & Data", "items": ["Node.js", "Firebase", "MongoDB", "Supabase"] },
+    { "label": "Integrations", "items": ["REST APIs", "Agora", "HealthKit", "Health Connect", "Airbridge"] }
+  ],
+  "experience": [
+    {
+      "company": "Nextek Solutions",
+      "role": "Software Engineer I",
+      "location": "Lahore, Pakistan",
+      "start": "May 2024",
+      "end": "Present",
+      "current": true,
+      "summary": "Shipping cross-platform products across iOS, Android, and web — fitness, storytelling, and media discovery.",
+      "work": []
+    },
+    {
+      "company": "CodSoft",
+      "role": "React Developer (Internship)",
+      "location": "Remote",
+      "start": "Sep 2023",
+      "end": "Sep 2023",
+      "summary": "Delivered React.js web modules in a remote internship, meeting sprint deadlines and strengthening component-based architecture.",
+      "work": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Buzzmi",
+      "company": "Nextek Solutions",
+      "tagline": "Fitness & community platform shared across iOS, Android, and web",
+      "stack": ["React Native", "Next.js", "Zustand", "HealthKit", "Health Connect", "Airbridge"],
+      "platforms": ["iOS", "Android", "Web"],
+      "status": "Project",
+      "bullets": [
+        "Architected a monorepo sharing business logic across React Native and Next.js, cutting duplicated code by ~40% and enabling simultaneous releases across 3 platforms.",
+        "Built social authentication (Google, Apple, Facebook) and in-app purchase flows integrated with Airbridge deep linking to reduce onboarding drop-off.",
+        "Unified fitness tracking across HealthKit and Health Connect for real-time smartwatch sync.",
+        "Built a community platform with programs, workouts, habit tracking, a social feed, in-app chat, and role-based access for coaches vs. users."
+      ]
+    },
+    {
+      "name": "Storybirds",
+      "company": "Nextek Solutions",
+      "tagline": "Audio-storytelling platform connecting adults and children through voice",
+      "stack": ["Flutter", "Firebase", "FCM", "Background Audio"],
+      "platforms": ["Android"],
+      "status": "Live on Play Store",
+      "bullets": [
+        "Launched an audio-storytelling app, live on the Play Store, connecting adults and children through asynchronous voice recordings.",
+        "Engineered background-capable audio playback with secure recording, removing interruptions that caused drop-off.",
+        "Built a Firebase FCM push notification system alerting users to new story posts, driving increased daily session opens.",
+        "Optimized media upload/download pipelines with chunked transfers, progress indicators, and automatic retry logic for low-bandwidth connections."
+      ]
+    },
+    {
+      "name": "Photo Play",
+      "company": "Nextek Solutions",
+      "tagline": "Movie discovery app with Netflix-inspired browsing",
+      "stack": ["Flutter", "REST APIs", "Custom UI"],
+      "platforms": ["Android", "iOS"],
+      "status": "Project",
+      "bullets": [
+        "Integrated REST APIs to power responsive, top-rated movie listing feeds.",
+        "Designed a Netflix-inspired UI with custom carousels, hero banners, and animated transitions.",
+        "Implemented list virtualization and image caching to support large media catalogs without performance loss."
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "name": "Fit Hunt",
+      "tagline": "Final-year fitness & nutrition app — 2nd place among FYP submissions",
+      "stack": ["React Native", "Firebase"],
+      "platforms": ["iOS", "Android"],
+      "status": "Award",
+      "bullets": [
+        "Tailored diet plans, exercise libraries, and daily progress tracking.",
+        "Firebase Auth and Firestore persisting goals, dietary logs, and workout history."
+      ]
+    },
+    {
+      "name": "Kiddu",
+      "tagline": "Educational app for kids across 6 interactive learning modules",
+      "stack": ["React Native", "TypeScript", "Redux", "Firebase"],
+      "platforms": ["iOS", "Android"],
+      "status": "Project",
+      "bullets": [
+        "6 modules: alphabets, numbers, animals, shapes, games, and pronunciation guides.",
+        "Firebase auth, a rewards system, and premium content gating by user role.",
+        "Reusable atomic component library with Lottie animation and audio handling."
+      ]
+    },
+    {
+      "name": "Food Ordering App",
+      "tagline": "Full-cycle ordering experience with live in-app voice support",
+      "stack": ["React Native", "Redux", "Agora"],
+      "platforms": ["iOS", "Android"],
+      "status": "Project",
+      "bullets": [
+        "Checkout flow with cart management, item customization, and automated order-confirmation emails.",
+        "Agora real-time calling for in-app voice communication.",
+        "Category browsing with real-time search, filtering, and personalized recommendations."
+      ]
+    }
+  ]
+}

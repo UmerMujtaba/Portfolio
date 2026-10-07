@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: #10151c;
+  color: #e7eaee;
+}
+
+::selection {
+  background-color: #e3a34e;
+  color: #10151c;
+}
+
+/* Visible keyboard focus ring, consistent across interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #55c8b8;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.section-line {
+  border-color: rgba(231, 234, 238, 0.12);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Subtle grain-like dot texture used behind the hero device stack */
+.bg-dot-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgba(231, 234, 238, 0.14) 1px, transparent 0);
+  background-size: 22px 22px;
+}
